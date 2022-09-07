@@ -3,9 +3,9 @@
 }
 .nav-link:hover{
     font-weight: 700;
-    color: cornflowerblue !important;
+    color: cornflowerblue;
 }
-/* navbar  */
+
 .banner-text{
     margin-top: 150px;
     line-height: 1.5;
@@ -30,7 +30,7 @@
         max-height: 50vh;
    }
 }
-/* banner  */
+
 .aboutus-data{
     height: 100%;
     padding-left: 120px;
@@ -79,6 +79,7 @@
     padding: 30px;
 }
 }
+
 .service-box{
     padding: 30px;
     background-color: #fff;
@@ -93,9 +94,9 @@
     margin-bottom: 20px;
     color: #3d60f4;
 }
-.service-box h5:hover{
-    text-decoration: underline;
-    font-weight: 700;
+.service-box :hover{
+    color: darkcyan;
+    font-size: 20px;
 }
 
 .testimonials{
@@ -113,7 +114,7 @@
 }
 .test-image{
    border-radius: 50%;
-   width: 20% !important;
+   width: 20%;
 }
 .contact-head p ,.contact-form p{
     color: gray;
@@ -129,7 +130,7 @@
     text-decoration: none;
 }
 .common-btn:hover{
-    background-color: #000 !important;
+    background-color: #000;
 }
 
 .footer{
@@ -140,7 +141,7 @@
    margin-bottom: 25px;
 }
 .icons a{
-    color: #fff !important;
+    color: #fff;
     font-size: 20px;
     margin: 10px;
 }
@@ -148,7 +149,7 @@
     padding-top: 20px;
     padding-left: 20px;
 }
-.icons a i:hover{
+ .icons a i:hover{
     color: #3d60f4;
     font-size: 30px;
 }
@@ -157,8 +158,8 @@
     padding: 4px;
 }
 .subs-btn:hover{
-    background-color: #000 !important;
-    color: #fff !important;
+    background-color: #000;
+    color: #fff;
 }
 .abt-me{
     float: right;
